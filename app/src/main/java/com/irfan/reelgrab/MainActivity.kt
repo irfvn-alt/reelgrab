@@ -19,7 +19,7 @@ import java.util.concurrent.Executors
 class MainActivity : Activity() {
 
     // We will replace this after deploying the resolver.
-    private val resolverUrl = "https://YOUR-SERVER-DOMAIN/resolve"
+    private val resolverUrl = "https://reelgrab-resolver.onrender.com/resolve"
 
     private val executor = Executors.newSingleThreadExecutor()
 
